@@ -1,0 +1,22 @@
+###
+GET http://localhost:4000/employees/
+
+###
+POST http://localhost:4000/employees/
+Content-Type: "application/json"
+
+{
+    "name": "Ruben",
+    "position": "Jnr.Developer",
+    "office": "Rome",
+    "salary": "2000"
+}
+
+###
+GET http://localhost:4000/employees/
+
+###
+PUT http://localhost:4000/employees/
+
+###
+DELETE http://localhost:4000/employees/
